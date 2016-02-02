@@ -8,9 +8,11 @@ var Item = function () {
     this.balance = 0.0
 };
 
+//every instance will access this property
 Item.prototype.getAllAttributes=function(){
     return this.id +this.name +this.qty;
 }
+//create a new object
 var mariaB = new Item();
 
 mariaB.name = 'Maria B';
