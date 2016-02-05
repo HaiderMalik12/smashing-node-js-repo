@@ -1,0 +1,25 @@
+Objects:
+-every component in javascript is object including function,
+strings and Numbers.
+-we normally use object-literals or costructor functions to create objects
+
+Encapsulation:
+
+-Methods and Properties are hidden from the rest of other apps or modules
+-Abstratc specific set fo functionalities an object
+
+Inheritance:
+
+-Advnatages of these concepts that can allow us to build a project
+with reusable code ,scalabale architecture and abstracted functionalities
+
+Instance:
+
+-instance is an implementation of a function.
+-It is a copy of function or an object
+
+function Tree(typeof){};
+
+//bananaTree is an instance of Tree
+
+var bananTree=new Tree("banana");
